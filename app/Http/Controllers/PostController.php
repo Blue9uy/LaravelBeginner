@@ -11,7 +11,7 @@ class PostController extends Controller
      */
     public function index()
     {
-        return "Works";
+        return "Index function";
     }
 
     /**
@@ -19,7 +19,7 @@ class PostController extends Controller
      */
     public function create()
     {
-
+return "Create function";
     }
 
     /**
@@ -35,7 +35,7 @@ class PostController extends Controller
      */
     public function show(string $id)
     {
-        //
+        return "Show Function ".$id;
     }
 
     /**
@@ -43,7 +43,7 @@ class PostController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        return "Edit Function ".$id;
     }
 
     /**
